@@ -78,7 +78,13 @@ function App() {
         <label className='LableName'>Married</label>
 
         <input type="radio" id="Unmarried" name="state" value="Unmarried" className='RadioButton' />
-        <label className='LableName'>Unmarried</label>
+        <label className='LableName'>Unmarried</label> <br />
+
+        <input type="checkbox" id="Married" name="state" value="Married" className='RadioButton' />
+        <label className='LableName'>School Student</label>
+
+        <input type="checkbox" id="Unmarried" name="state" value="Unmarried" className='RadioButton' />
+        <label className='LableName'>University Student</label>
 
         <div className="d-grid mt-3 mb-3">
           <Button variant="primary" size="md">Register Now</Button>
